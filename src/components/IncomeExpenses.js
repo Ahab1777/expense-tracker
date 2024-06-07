@@ -16,10 +16,10 @@ export function IncomeExpenses() {
     }
     return acc
   }, 0)
-
+  console.log(income)
   return (
     <div>
-      <div class="inc-exp-container">
+      <div className="inc-exp-container">
         <div>
             <h4>Income</h4>
             <p className="money plus">+R${income.toFixed(2)}</p>
